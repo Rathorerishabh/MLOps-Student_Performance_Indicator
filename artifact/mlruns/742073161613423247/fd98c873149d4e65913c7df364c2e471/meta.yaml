@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/fd98c873149d4e65913c7df364c2e471/artifacts
+end_time: 1729489264588
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: fd98c873149d4e65913c7df364c2e471
+run_name: omniscient-ram-883
+run_uuid: fd98c873149d4e65913c7df364c2e471
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729489264204
+status: 4
+tags: []
+user_id: risha

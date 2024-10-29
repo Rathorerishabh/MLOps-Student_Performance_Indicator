@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/622097548112757727/fa5fbfc37f9b44d5a22f0817983b2404/artifacts
+end_time: 1729499662124
+entry_point_name: ''
+experiment_id: '622097548112757727'
+lifecycle_stage: active
+run_id: fa5fbfc37f9b44d5a22f0817983b2404
+run_name: fun-squid-86
+run_uuid: fa5fbfc37f9b44d5a22f0817983b2404
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729499661180
+status: 3
+tags: []
+user_id: risha

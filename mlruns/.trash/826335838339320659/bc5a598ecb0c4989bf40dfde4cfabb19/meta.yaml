@@ -1,0 +1,16 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/826335838339320659/bc5a598ecb0c4989bf40dfde4cfabb19/artifacts
+deleted_time: 1729498789791
+end_time: 1729497785171
+entry_point_name: ''
+experiment_id: '826335838339320659'
+lifecycle_stage: deleted
+run_id: bc5a598ecb0c4989bf40dfde4cfabb19
+run_name: amazing-skink-568
+run_uuid: bc5a598ecb0c4989bf40dfde4cfabb19
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729497784876
+status: 3
+tags: []
+user_id: risha

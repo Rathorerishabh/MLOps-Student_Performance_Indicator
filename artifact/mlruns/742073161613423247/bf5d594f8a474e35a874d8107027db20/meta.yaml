@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/bf5d594f8a474e35a874d8107027db20/artifacts
+end_time: 1729451736164
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: bf5d594f8a474e35a874d8107027db20
+run_name: peaceful-gull-450
+run_uuid: bf5d594f8a474e35a874d8107027db20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729451735175
+status: 4
+tags: []
+user_id: risha

@@ -1,0 +1,8 @@
+[2024-10-20 10:21:56 UTC] Step ingest_df has started.
+
+[2024-10-20 10:21:56 UTC] Ingestion data from /mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/data/combined_orders_customers.csv
+
+[2024-10-20 10:21:56 UTC] Step ingest_df has finished in 6.244s.
+
+[2024-10-20 10:21:56 UTC] Step ingest_df completed successfully.
+

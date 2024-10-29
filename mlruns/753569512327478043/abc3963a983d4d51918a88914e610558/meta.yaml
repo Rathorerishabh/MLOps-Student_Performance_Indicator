@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/abc3963a983d4d51918a88914e610558/artifacts
+end_time: 1730141296785
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: abc3963a983d4d51918a88914e610558
+run_name: carefree-cow-264
+run_uuid: abc3963a983d4d51918a88914e610558
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730141296471
+status: 4
+tags: []
+user_id: risha

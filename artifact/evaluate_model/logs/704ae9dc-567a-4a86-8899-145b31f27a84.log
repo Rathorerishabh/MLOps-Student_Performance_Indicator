@@ -1,0 +1,21 @@
+[2024-10-27 10:37:51 UTC] Step evaluate_model has started.
+
+[2024-10-27 10:37:51 UTC] Calculating MSE
+
+[2024-10-27 10:37:51 UTC] MSE: 4.152162345592299
+
+[2024-10-27 10:37:51 UTC] Claculating r2 squared scores
+
+[2024-10-27 10:37:51 UTC] R2 Score: 0.9886242370062446
+
+[2024-10-27 10:37:51 UTC] Calculating RMSE
+
+[2024-10-27 10:37:51 UTC] RMSE: 2.0376855364830706
+
+[2024-10-27 10:37:51 UTC] /mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/integrations/mlflow/experiment_trackers/mlflow_experiment_tracker.py:255: FutureWarning: ``mlflow.gluon.autolog`` is deprecated since 2.5.0. This method will be removed in a future release.
+  module.autolog(disable=True)
+
+[2024-10-27 10:37:51 UTC] Step evaluate_model has finished in 5.133s.
+
+[2024-10-27 10:37:51 UTC] Step evaluate_model completed successfully.
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/742e45a5460c4c14b8f057db6f7280d5/artifacts
+end_time: 1730142216972
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: 742e45a5460c4c14b8f057db6f7280d5
+run_name: smiling-pug-447
+run_uuid: 742e45a5460c4c14b8f057db6f7280d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730142216422
+status: 3
+tags: []
+user_id: risha

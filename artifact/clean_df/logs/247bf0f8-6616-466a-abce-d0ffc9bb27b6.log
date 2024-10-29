@@ -1,0 +1,38 @@
+[2024-10-20 13:16:58 UTC] Step clean_df has started.
+
+[2024-10-20 13:16:58 UTC] Error in data divison:'Series' object has no attribute 'columns'
+
+[2024-10-20 13:16:58 UTC] Error in handling data:'Series' object has no attribute 'columns'
+
+[2024-10-20 13:16:58 UTC] Error in cleaning and splitting data: 'Series' object has no attribute 'columns'
+
+[2024-10-20 13:16:58 UTC] Failed to run step clean_df after 1 retries. Exiting.
+
+[2024-10-20 13:16:58 UTC] 'Series' object has no attribute 'columns'
+Traceback (most recent call last):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 292, in launch
+    self._run_step(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 499, in _run_step
+    self._run_step_without_step_operator(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 583, in _run_step_without_step_operator
+    runner.run(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 198, in run
+    return_values = step_instance.call_entrypoint(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/steps/base_step.py", line 692, in call_entrypoint
+    return self.entrypoint(**validated_args)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/steps/clean_data.py", line 34, in clean_df
+    raise e
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/steps/clean_data.py", line 25, in clean_df
+    X_train, X_test, y_train, y_test = data_cleaning.handle_data()
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/src/data_cleaning.py", line 49, in handle_data
+    raise e
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/src/data_cleaning.py", line 46, in handle_data
+    return self.strategy.handle_data(self.data)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/src/data_cleaning.py", line 35, in handle_data
+    raise e
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/src/data_cleaning.py", line 28, in handle_data
+    print("Columns in DataFrame:", data.columns)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/pandas/core/generic.py", line 6299, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'columns'
+

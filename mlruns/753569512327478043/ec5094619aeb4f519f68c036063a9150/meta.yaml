@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/ec5094619aeb4f519f68c036063a9150/artifacts
+end_time: 1730201141327
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: ec5094619aeb4f519f68c036063a9150
+run_name: stylish-crab-321
+run_uuid: ec5094619aeb4f519f68c036063a9150
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730201140491
+status: 3
+tags: []
+user_id: risha

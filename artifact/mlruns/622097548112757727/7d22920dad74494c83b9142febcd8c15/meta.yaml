@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/622097548112757727/7d22920dad74494c83b9142febcd8c15/artifacts
+end_time: 1729499484708
+entry_point_name: ''
+experiment_id: '622097548112757727'
+lifecycle_stage: active
+run_id: 7d22920dad74494c83b9142febcd8c15
+run_name: beautiful-tern-5
+run_uuid: 7d22920dad74494c83b9142febcd8c15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729499453384
+status: 3
+tags: []
+user_id: risha

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/6af7c05926314ac489cd47ab4982767c/artifacts
+end_time: 1729488872908
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: 6af7c05926314ac489cd47ab4982767c
+run_name: handsome-sow-837
+run_uuid: 6af7c05926314ac489cd47ab4982767c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729488808718
+status: 3
+tags: []
+user_id: risha

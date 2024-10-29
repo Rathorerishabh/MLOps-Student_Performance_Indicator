@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/67bca92b854542099d07494a924f9c4f/artifacts
+end_time: 1730141428136
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: 67bca92b854542099d07494a924f9c4f
+run_name: rare-whale-379
+run_uuid: 67bca92b854542099d07494a924f9c4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730141427785
+status: 4
+tags: []
+user_id: risha

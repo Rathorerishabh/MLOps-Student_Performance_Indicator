@@ -1,0 +1,14 @@
+[2024-10-27 13:03:05 UTC] Step clean_df has started.
+
+[2024-10-27 13:03:05 UTC] Columns in DataFrame:
+[2024-10-27 13:03:05 UTC]  
+[2024-10-27 13:03:05 UTC] Index(['Hours Studied', 'Previous Scores', 'Extracurricular Activities',
+       'Sleep Hours', 'Sample Question Papers Practiced', 'Performance Index',
+       'f1'],
+      dtype='object')
+[2024-10-27 13:03:05 UTC] Data cleaning and splitting completed
+
+[2024-10-27 13:03:05 UTC] Step clean_df has finished in 5.386s.
+
+[2024-10-27 13:03:05 UTC] Step clean_df completed successfully.
+

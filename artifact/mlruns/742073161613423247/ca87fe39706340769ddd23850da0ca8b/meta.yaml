@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/ca87fe39706340769ddd23850da0ca8b/artifacts
+end_time: 1729452484339
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: ca87fe39706340769ddd23850da0ca8b
+run_name: polite-shoat-721
+run_uuid: ca87fe39706340769ddd23850da0ca8b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729452323446
+status: 3
+tags: []
+user_id: risha

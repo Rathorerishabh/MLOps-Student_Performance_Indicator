@@ -1,0 +1,18 @@
+[2024-10-20 18:22:45 UTC] Step train_model has started.
+
+[2024-10-20 18:22:45 UTC] Training LinearRegression model...
+
+[2024-10-20 18:24:58 UTC] 2024/10/20 23:52:45 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-20 18:24:58 UTC] 2024/10/20 23:52:46 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-20 18:24:58 UTC] 2024/10/20 23:54:58 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+
+[2024-10-20 18:25:02 UTC] Model training completed and logged in MLflow.
+
+[2024-10-20 18:25:02 UTC] No materializer is registered for type <class 'sklearn.linear_model._base.LinearRegression'>, so the default Pickle materializer was used. Pickle is not production ready and should only be used for prototyping as the artifacts cannot be loaded when running with a different Python version. Please consider implementing a custom materializer for type <class 'sklearn.linear_model._base.LinearRegression'> according to the instructions at https://docs.zenml.io/how-to/handle-data-artifacts/handle-custom-data-types
+
+[2024-10-20 18:25:02 UTC] Step train_model has finished in 2m35s.
+
+[2024-10-20 18:25:02 UTC] Step train_model completed successfully.
+

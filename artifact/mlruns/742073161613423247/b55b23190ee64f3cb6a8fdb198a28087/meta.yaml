@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/b55b23190ee64f3cb6a8fdb198a28087/artifacts
+end_time: 1729452549098
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: b55b23190ee64f3cb6a8fdb198a28087
+run_name: wise-calf-757
+run_uuid: b55b23190ee64f3cb6a8fdb198a28087
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729452484460
+status: 3
+tags: []
+user_id: risha

@@ -1,0 +1,27 @@
+[2024-10-27 13:08:04 UTC] Step model_deployer has started.
+
+[2024-10-27 13:08:04 UTC] Using the default model signature for scikit-learn ({'predict': {'batchable': False}}) for model "linear_regression_model".
+
+[2024-10-27 13:08:04 UTC] HTTP Request: POST https://t.bentoml.com "HTTP/1.1 200 OK"
+
+[2024-10-27 13:08:04 UTC] Deployment failed: 'str' object has no attribute 'model_dump'
+[2024-10-27 13:08:04 UTC] Failed to run step model_deployer after 1 retries. Exiting.
+
+[2024-10-27 13:08:04 UTC] 'str' object has no attribute 'model_dump'
+Traceback (most recent call last):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 292, in launch
+    self._run_step(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 499, in _run_step
+    self._run_step_without_step_operator(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 583, in _run_step_without_step_operator
+    runner.run(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 198, in run
+    return_values = step_instance.call_entrypoint(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/steps/base_step.py", line 692, in call_entrypoint
+    return self.entrypoint(**validated_args)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/pipelines/deployment_pipeline.py", line 54, in model_deployer
+    service = bentoml_model_deployer.deploy_model(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/model_deployers/base_model_deployer.py", line 176, in deploy_model
+    config=config.model_dump(),
+AttributeError: 'str' object has no attribute 'model_dump'
+

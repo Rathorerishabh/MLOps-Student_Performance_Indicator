@@ -1,0 +1,57 @@
+[2024-10-20 19:13:00 UTC] Step train_model has started.
+
+[2024-10-20 19:13:00 UTC] Training LinearRegression model...
+
+[2024-10-20 19:15:34 UTC] 2024/10/21 00:43:00 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-20 19:15:34 UTC] 2024/10/21 00:43:01 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-20 19:15:34 UTC] 2024/10/21 00:45:34 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+
+[2024-10-20 19:15:39 UTC] LinearRegression model training completed and logged.
+
+[2024-10-20 19:15:39 UTC] Training ElasticNet model...
+
+[2024-10-20 19:15:39 UTC] 2024/10/21 00:45:36 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-20 19:15:39 UTC] Error in training model: ElasticNet.fit() got an unexpected keyword argument 'alpha'
+
+[2024-10-20 19:15:39 UTC] /mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/integrations/mlflow/experiment_trackers/mlflow_experiment_tracker.py:255: FutureWarning: ``mlflow.gluon.autolog`` is deprecated since 2.5.0. This method will be removed in a future release.
+  module.autolog(disable=True)
+
+[2024-10-20 19:15:39 UTC] Failed to run step train_model after 1 retries. Exiting.
+
+[2024-10-20 19:15:39 UTC] ElasticNet.fit() got an unexpected keyword argument 'alpha'
+Traceback (most recent call last):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 292, in launch
+    self._run_step(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 499, in _run_step
+    self._run_step_without_step_operator(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 583, in _run_step_without_step_operator
+    runner.run(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 198, in run
+    return_values = step_instance.call_entrypoint(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/steps/base_step.py", line 692, in call_entrypoint
+    return self.entrypoint(**validated_args)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/steps/model_training.py", line 67, in train_model
+    raise e
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/steps/model_training.py", line 48, in train_model
+    trained_model = model.fit(X_train, y_train, alpha=0.8, l1_ratio=0.3)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 580, in safe_patch_function
+    patch_function(call_original, *args, **kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 249, in patch_with_managed_run
+    result = patch_function(original, *args, **kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/sklearn/__init__.py", line 1654, in patched_fit
+    result = fit_impl(original, self, *args, **kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/sklearn/__init__.py", line 1429, in fit_mlflow
+    fit_output = original(self, *args, **kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 561, in call_original
+    return call_original_fn_with_event_logging(_original_fn, og_args, og_kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 496, in call_original_fn_with_event_logging
+    original_fn_result = original_fn(*og_args, **og_kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/utils/autologging_utils/safety.py", line 558, in _original_fn
+    original_result = original(*_og_args, **_og_kwargs)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/sklearn/base.py", line 1473, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+TypeError: ElasticNet.fit() got an unexpected keyword argument 'alpha'
+

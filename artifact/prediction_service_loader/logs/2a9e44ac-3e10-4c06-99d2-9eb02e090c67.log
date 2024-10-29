@@ -1,0 +1,22 @@
+[2024-10-27 07:48:41 UTC] Caching disabled explicitly for prediction_service_loader.
+
+[2024-10-27 07:48:41 UTC] Step prediction_service_loader has started.
+
+[2024-10-27 07:48:41 UTC] Failed to run step prediction_service_loader after 1 retries. Exiting.
+
+[2024-10-27 07:48:41 UTC] No BentoML deployment service found for pipeline 'continuous_deployment_pipeline', step 'prediction_service_loader', and model 'model'.
+Traceback (most recent call last):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 292, in launch
+    self._run_step(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 499, in _run_step
+    self._run_step_without_step_operator(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 583, in _run_step_without_step_operator
+    runner.run(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 198, in run
+    return_values = step_instance.call_entrypoint(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/steps/base_step.py", line 692, in call_entrypoint
+    return self.entrypoint(**validated_args)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/pipelines/deployment_pipeline.py", line 55, in prediction_service_loader
+    raise RuntimeError(
+RuntimeError: No BentoML deployment service found for pipeline 'continuous_deployment_pipeline', step 'prediction_service_loader', and model 'model'.
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/622097548112757727/5332b61662ad43b39385efbe78291712/artifacts
+end_time: 1729499453340
+entry_point_name: ''
+experiment_id: '622097548112757727'
+lifecycle_stage: active
+run_id: 5332b61662ad43b39385efbe78291712
+run_name: nosy-pig-480
+run_uuid: 5332b61662ad43b39385efbe78291712
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729499363161
+status: 3
+tags: []
+user_id: risha

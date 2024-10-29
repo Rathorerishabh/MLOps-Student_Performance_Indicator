@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/9cf6a51796c74fe29311fa4b462e11e9/artifacts
+end_time: 1729452549926
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: 9cf6a51796c74fe29311fa4b462e11e9
+run_name: gifted-sheep-308
+run_uuid: 9cf6a51796c74fe29311fa4b462e11e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729452549204
+status: 4
+tags: []
+user_id: risha

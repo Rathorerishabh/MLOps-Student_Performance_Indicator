@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/5170d33c5d644e8d8fe1fc6dab3a7568/artifacts
+end_time: 1730141141963
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: 5170d33c5d644e8d8fe1fc6dab3a7568
+run_name: caring-goat-355
+run_uuid: 5170d33c5d644e8d8fe1fc6dab3a7568
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730141141564
+status: 4
+tags: []
+user_id: risha

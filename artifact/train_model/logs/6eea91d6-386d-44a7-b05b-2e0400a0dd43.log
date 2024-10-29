@@ -1,0 +1,20 @@
+[2024-10-27 10:56:36 UTC] Step train_model has started.
+
+[2024-10-27 10:56:36 UTC] 2024/10/27 16:25:38 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-27 10:56:36 UTC] 2024/10/27 16:25:38 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/mlflow/types/utils.py:407: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details."
+
+[2024-10-27 10:56:36 UTC] Trained model type:<class 'sklearn.linear_model._base.LinearRegression'>
+[2024-10-27 10:56:39 UTC] Using the default model signature for scikit-learn ({'predict': {'batchable': False}}) for model "model".
+
+[2024-10-27 10:56:39 UTC] HTTP Request: POST https://t.bentoml.com "HTTP/1.1 200 OK"
+
+[2024-10-27 10:56:39 UTC] /mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/integrations/mlflow/experiment_trackers/mlflow_experiment_tracker.py:255: FutureWarning: ``mlflow.gluon.autolog`` is deprecated since 2.5.0. This method will be removed in a future release.
+  module.autolog(disable=True)
+
+[2024-10-27 10:56:39 UTC] No materializer is registered for type <class 'sklearn.linear_model._base.LinearRegression'>, so the default Pickle materializer was used. Pickle is not production ready and should only be used for prototyping as the artifacts cannot be loaded when running with a different Python version. Please consider implementing a custom materializer for type <class 'sklearn.linear_model._base.LinearRegression'> according to the instructions at https://docs.zenml.io/how-to/handle-data-artifacts/handle-custom-data-types
+
+[2024-10-27 10:56:39 UTC] Step train_model has finished in 1m13s.
+
+[2024-10-27 10:56:39 UTC] Step train_model completed successfully.
+

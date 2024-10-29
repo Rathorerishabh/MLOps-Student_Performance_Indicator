@@ -1,0 +1,29 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.2
+mlflow_version: 2.17.0
+model_size_bytes: 713
+model_uuid: f627e1a5cc9e499f8a0ff3a7b1a37e79
+run_id: 969519cdb1fc4e0dbc1b7b2f2117ac67
+signature:
+  inputs: '[{"type": "long", "name": "Hours Studied", "required": true}, {"type":
+    "long", "name": "Previous Scores", "required": true}, {"type": "long", "name":
+    "Extracurricular Activities", "required": true}, {"type": "long", "name": "Sleep
+    Hours", "required": true}, {"type": "long", "name": "Sample Question Papers Practiced",
+    "required": true}, {"type": "long", "name": "f1", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1,
+    1]}}]'
+  params: null
+utc_time_created: '2024-10-27 08:13:01.336116'

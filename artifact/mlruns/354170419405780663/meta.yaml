@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/354170419405780663
+creation_time: 1730031563279
+experiment_id: '354170419405780663'
+last_update_time: 1730031563279
+lifecycle_stage: active
+name: evaluate_model

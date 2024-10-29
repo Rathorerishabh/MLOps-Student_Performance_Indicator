@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/49676cc891174850a318dff44d1375ed/artifacts
+end_time: 1729488906642
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: 49676cc891174850a318dff44d1375ed
+run_name: incongruous-bear-667
+run_uuid: 49676cc891174850a318dff44d1375ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729488906330
+status: 4
+tags: []
+user_id: risha

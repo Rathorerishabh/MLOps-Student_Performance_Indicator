@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/11f5d4505e33429e975aec342ae3805d/artifacts
+end_time: 1729496341993
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: 11f5d4505e33429e975aec342ae3805d
+run_name: delightful-chimp-706
+run_uuid: 11f5d4505e33429e975aec342ae3805d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729496340998
+status: 3
+tags: []
+user_id: risha

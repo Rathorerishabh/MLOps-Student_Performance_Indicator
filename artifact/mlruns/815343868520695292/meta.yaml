@@ -1,0 +1,6 @@
+artifact_location: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/815343868520695292
+creation_time: 1730031250475
+experiment_id: '815343868520695292'
+last_update_time: 1730031250475
+lifecycle_stage: active
+name: train_model

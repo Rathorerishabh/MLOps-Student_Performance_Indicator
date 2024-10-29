@@ -1,0 +1,26 @@
+[2024-10-26 16:15:26 UTC] Step custom_model_deployment_step has started.
+
+[2024-10-26 16:15:26 UTC] Failed to run step custom_model_deployment_step after 1 retries. Exiting.
+
+[2024-10-26 16:15:26 UTC] issubclass() arg 1 must be a class
+Traceback (most recent call last):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 292, in launch
+    self._run_step(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 499, in _run_step
+    self._run_step_without_step_operator(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_launcher.py", line 583, in _run_step_without_step_operator
+    runner.run(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 186, in run
+    function_params = self._parse_inputs(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 352, in _parse_inputs
+    function_params[arg] = self._load_input_artifact(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/orchestrators/step_runner.py", line 464, in _load_input_artifact
+    materializer.validate_type_compatibility(data_type)
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/materializers/base_materializer.py", line 242, in validate_type_compatibility
+    if not self.can_handle_type(data_type):
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/materializers/base_materializer.py", line 259, in can_handle_type
+    return any(
+  File "/mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/venv/lib/python3.10/site-packages/zenml/materializers/base_materializer.py", line 260, in <genexpr>
+    issubclass(data_type, associated_type)
+TypeError: issubclass() arg 1 must be a class
+

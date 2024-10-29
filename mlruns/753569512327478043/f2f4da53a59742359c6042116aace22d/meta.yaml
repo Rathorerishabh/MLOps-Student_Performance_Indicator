@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/f2f4da53a59742359c6042116aace22d/artifacts
+end_time: 1730141531780
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: active
+run_id: f2f4da53a59742359c6042116aace22d
+run_name: bedecked-hawk-910
+run_uuid: f2f4da53a59742359c6042116aace22d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730141531337
+status: 4
+tags: []
+user_id: risha

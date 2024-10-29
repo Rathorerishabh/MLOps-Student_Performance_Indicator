@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/f98abdf66f7942a594488d1efeb95b08/artifacts
+end_time: 1729499492781
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: f98abdf66f7942a594488d1efeb95b08
+run_name: data_pipeline-2024_10_21-08_29_07_480085
+run_uuid: f98abdf66f7942a594488d1efeb95b08
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729499356429
+status: 4
+tags: []
+user_id: risha

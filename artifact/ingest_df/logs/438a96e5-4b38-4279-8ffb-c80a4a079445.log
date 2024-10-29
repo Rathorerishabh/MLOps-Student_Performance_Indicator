@@ -1,0 +1,8 @@
+[2024-10-27 10:10:21 UTC] Step ingest_df has started.
+
+[2024-10-27 10:10:21 UTC] Ingestion data from /mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/data/Student_Performance.csv
+
+[2024-10-27 10:10:21 UTC] Step ingest_df has finished in 1.600s.
+
+[2024-10-27 10:10:21 UTC] Step ingest_df completed successfully.
+

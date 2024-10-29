@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/artifact/mlruns/742073161613423247/1df0f89db77d48b9a946f249d4c34e79/artifacts
+end_time: 1729488906291
+entry_point_name: ''
+experiment_id: '742073161613423247'
+lifecycle_stage: active
+run_id: 1df0f89db77d48b9a946f249d4c34e79
+run_name: colorful-ape-289
+run_uuid: 1df0f89db77d48b9a946f249d4c34e79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729488872953
+status: 3
+tags: []
+user_id: risha
