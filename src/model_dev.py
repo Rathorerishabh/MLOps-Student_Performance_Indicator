@@ -24,8 +24,8 @@ class LinearRegressionModel(Model):
 #class Elasticnet(Model):
     #def train(self,X_train,y_train,**kwargs):
         #try:
-            reg2=ElasticNet(**kwargs)
-            reg2.fit(X_train,y_train)
+            #reg2=ElasticNet(**kwargs)
+            #reg2.fit(X_train,y_train)
             return reg2
         #except Exception as e:
             logging.error("Error in training model:{}".format(e))

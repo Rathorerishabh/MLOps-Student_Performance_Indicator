@@ -1,0 +1,16 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/0df4e5804ca24db4b32ec86aa71a8e1f/artifacts
+deleted_time: 1730352814580
+end_time: 1730198630743
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: deleted
+run_id: 0df4e5804ca24db4b32ec86aa71a8e1f
+run_name: gaudy-quail-385
+run_uuid: 0df4e5804ca24db4b32ec86aa71a8e1f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730198629737
+status: 3
+tags: []
+user_id: risha

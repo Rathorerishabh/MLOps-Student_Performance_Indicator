@@ -1,0 +1,16 @@
+artifact_uri: file:///mnt/c/Users/risha/Desktop/retail-prize-optimization-MLOps/mlruns/753569512327478043/5a17a9733eae4189831f5aa0893707d4/artifacts
+deleted_time: 1730352814580
+end_time: 1730200021286
+entry_point_name: ''
+experiment_id: '753569512327478043'
+lifecycle_stage: deleted
+run_id: 5a17a9733eae4189831f5aa0893707d4
+run_name: welcoming-seal-984
+run_uuid: 5a17a9733eae4189831f5aa0893707d4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730200020351
+status: 3
+tags: []
+user_id: risha

@@ -6,44 +6,24 @@ from sklearn.base import RegressorMixin
 from typing import Tuple
 from typing_extensions import Annotated
 import mlflow
-from zenml.client import Client
+from steps.dagshub_config import initialize_dagshub  # Import centralized config
 
-try:
-    experiment_tracker = Client().active_stack.experiment_tracker
-except Exception as e:
-    raise ValueError("Could not retrieve the active experiment tracker. Ensure you have an active ZenML stack.") from e
+# Initialize DagsHub and MLflow once
+initialize_dagshub()
 
-experiment_name = "Continuous_Deployment_Experiment"
-mlflow.set_experiment(experiment_name)
-
-@step(experiment_tracker=experiment_tracker.name)
-def evaluate_model(model: RegressorMixin,
-                   X_test: pd.DataFrame,
-                   y_test: pd.DataFrame,
-                   ) -> Tuple[
-                       Annotated[float, "mse"],
-                       Annotated[float, "r2_score"],
-                       Annotated[float, "rmse"],
-                   ]:
+@step(experiment_tracker="mlflow_tracker")
+def evaluate_model(model: RegressorMixin, X_test: pd.DataFrame, y_test: pd.DataFrame) -> Tuple[Annotated[float, "mse"], Annotated[float, "r2_score"], Annotated[float, "rmse"]]:
     """Evaluate the model on the ingested dataset"""
     try:
-        # Start MLflow run context
-        experiment_name = "Mlflow_Experiment"
-        mlflow.set_experiment(experiment_name)
-    
-    # Start a new MLflow run
         with mlflow.start_run(nested=True):
             prediction = model.predict(X_test)
-            mse_class = MSE()
-            mse = mse_class.calculate_scores(y_test, prediction)
+            mse = MSE().calculate_scores(y_test, prediction)
             mlflow.log_metric("mse", mse)
 
-            r2_class = R2()
-            r2 = r2_class.calculate_scores(y_test, prediction)
+            r2 = R2().calculate_scores(y_test, prediction)
             mlflow.log_metric("r2", r2)
 
-            rmse_class = RMSE()
-            rmse = rmse_class.calculate_scores(y_test, prediction)
+            rmse = RMSE().calculate_scores(y_test, prediction)
             mlflow.log_metric("rmse", rmse)
 
     except Exception as e:
